@@ -36,6 +36,20 @@ public class Skaiciavimai {
         System.out.println("Jus ivedete = " + length + " skaicius");
     }
 
+    public static void daliklioTikrinimas(int daliklis, int skaiciuKiekis) {
+        Scanner sc = new Scanner(System.in);
+
+        for (int i = 0; i < skaiciuKiekis; i++) {
+            System.out.println("Iveskite skaiciu: ");
+            int arDalijasi = sc.nextInt();
+            if (arDalijasi % daliklis == 0) {
+                System.out.println(arDalijasi);
+            } else {
+                System.out.println("Nesidalija, nebesvaik");
+            }
+        }
+    }
+
 
 
 }

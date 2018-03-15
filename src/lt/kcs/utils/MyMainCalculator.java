@@ -21,6 +21,10 @@ public class MyMainCalculator {
         Skaiciavimai.total();
 
         System.out.println("Padariau update");
+
+        //git add src\lafazknfan\nfam\ngm.java
+
+        Skaiciavimai.daliklioTikrinimas(3, 5);
     }
 }
 //jei nera static, kvieciame taip = Skaiciavimai a = new Skaiciavimai(); + a.isEven(12);
