@@ -19,6 +19,8 @@ public class MyMainCalculator {
 
         System.out.println(" ");
         Skaiciavimai.total();
+
+        System.out.println("Padariau update");
     }
 }
 //jei nera static, kvieciame taip = Skaiciavimai a = new Skaiciavimai(); + a.isEven(12);
